@@ -1,0 +1,165 @@
+body {
+   font-family: roboto;
+   background-color: white;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header > h1 {
+    color: #F9FAF8;
+    size: 24px;
+}
+
+.navigation {
+    padding-top: 30px;
+}
+
+.navigation > a {
+   text-decoration: none;
+   size: 18px;
+   color: #F9FAF8;
+   margin: 20px;
+}
+
+#home {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    margin: auto;
+    width: 100%;
+}
+
+.one {
+    margin: 100px;
+}
+
+.one > h1 {
+    color: #F9FAF8;
+    size: 48px;
+    font-weight: 900;
+}
+
+.one > p {
+    color: #F9FAF8;
+    size: 35px;
+}
+
+.bttn {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.bttn:hover {
+    color: black;
+}
+
+.one > img {
+    height: 400px;
+}
+
+/* Basic styling for the section */
+#about {
+    text-align: center;
+    padding: 20px;
+}
+
+#about h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #1F2937;
+}
+
+/* Styling for the container */
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: center;
+    gap: 20px; /* Adds space between cards */
+}
+
+/* Card styling */
+.card {
+    flex: 1 1 22%; /* Each card takes about 22% of the width */
+    max-width: 220px; /* Ensures cards don't get too wide */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #1F2937 ;
+}
+
+/* Image and card content styling */
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #F9FAF8;
+}
+
+.card p {
+    font-size: 14px;
+    color: #F9FAF8;
+}
+
+.tut {
+    color: #1F2937;
+    text-align: center;
+}
+
+.tutu {
+    color: #1F2937;
+    margin: 50px;
+    padding: 50px;
+}
+
+#cultural {
+    background-color: #dddddd;
+    margin: 25px;
+    padding: 30px;
+}
+
+footer {
+    background-color: #3882F6;
+    margin-top: 100px;
+    width: 60%;
+    margin-left: 450px;
+
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    padding: 50px;
+}
+
+.hello {
+    gap: 50px;
+    width: 50%;
+    color: #F9FAF8;
+    
+}
+
+.lastyy {
+    text-align: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    margin-top: 45px;
+}
+
+
+
+
+
+
